@@ -34,6 +34,12 @@ nav {
     text-align: center;
     max-width: 40%;
     min-width: 40%;
+    font-family: serif;
+ 
+}
+.information p {
+    font-size: 30px;
+    text-align: justify;
 }
 
 .introduction .information h2 {
@@ -43,6 +49,7 @@ nav {
     color: #fffffe;
     margin-bottom: 3%
 }
+
 
 .introduction img {
     width: 300px;
@@ -75,6 +82,10 @@ nav {
     min-height: 80%;
 }
 
+.facts-container p {
+    font-size: 30px;
+    text-align: justify;
+}
 .facts .fact {
     max-width: 30%;
 }
@@ -105,7 +116,10 @@ nav {
 .love-languages .section-title {
     padding: 3% 5%;
 }
-
+.section-title p {
+    font-size: 25px;
+    text-align: justify;
+}
 .love-languages .section-title h2 {
     background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
     padding: 1%;
@@ -113,6 +127,7 @@ nav {
     border-left: 3px solid black;
     box-shadow: 0px 10px 10px gray;
     margin-bottom: 2%;
+    font-size: 35px;
 }
 
 .love-languages .love-languages-container {
@@ -120,6 +135,11 @@ nav {
     flex-wrap: wrap;
     justify-content: space-evenly;
     min-height: 80%;
+}
+
+.love-languages-container p {
+font-size: 25px;
+text-align: justify;
 }
 
 .love-languages .love-language {
@@ -155,6 +175,9 @@ nav {
     padding: 3% 5%;
 }
 
+.section-title p {
+    font-size: 30px;
+}
 .educations .section-title h2 {
     background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
     padding: 1%;
@@ -162,6 +185,7 @@ nav {
     border-left: 3px solid black;
     box-shadow: 0px 10px 10px gray;
     margin-bottom: 2%;
+    font-size: 30px;
 }
 
 .educations .education {
@@ -169,6 +193,10 @@ nav {
     justify-content: space-around;
 }
 
+.information h2 {
+    font-size: 29px;
+
+}
 .educations .education-container .education {
     display: flex;
     justify-content: space-evenly;
@@ -208,7 +236,7 @@ nav {
 .family {
     background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
     color: #0e172c;
-    height: 100vh;
+    height: 120vh;
 }
 
 .family .section-title {
@@ -222,6 +250,7 @@ nav {
     border-left: 3px solid black;
     box-shadow: 0px 10px 10px gray;
     margin-bottom: 2%;
+    font-size: 30px;
 }
 
 .family .family-container {
@@ -236,10 +265,10 @@ nav {
 }
 
 .family .family-container .img-wrapper {
-    min-width: 60%;
-    max-width: 60%;
-    min-height: 40%;
-    max-height: 40%;
+    min-width: 80%;
+    max-width: 80%;
+    min-height: 50%;
+    max-height: 50%;
     display: flex;
     justify-content: center;
     padding-bottom: 2%;
@@ -247,7 +276,7 @@ nav {
 
 .family .family-container .img-wrapper img {
     width: auto;
-    height: 300px;
+    height: 500px;
     box-shadow: 0px 10px 10px black;
     border-radius: 40px;
     border: 3px solid black;
@@ -309,4 +338,9 @@ nav {
     max-width: 86%;
     margin-left: 8%;
     border: 1px solid #d296c1;
+}
+.social-container li {
+    display: inline-block;
+    font-size: 40px;
+    margin: 0 10px 0 10px ;
 }
